@@ -29,6 +29,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const req = event.request;
+  // 仅处理同源 GET；跨域(CDN/tesseract)放行由浏览器缓存
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;

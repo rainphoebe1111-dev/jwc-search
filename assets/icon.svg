@@ -6,12 +6,16 @@
     </linearGradient>
   </defs>
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- 白色文档卡片 -->
   <rect x="128" y="104" width="256" height="304" rx="36" fill="#ffffff"/>
+  <!-- 文档顶部折角 -->
   <path d="M128 140 a36 36 0 0 1 36 -36 h88 v72 a24 24 0 0 0 24 24 h72 v164 a36 36 0 0 1 -36 36 h-148 a36 36 0 0 1 -36 -36 Z" fill="#ffffff"/>
   <path d="M252 104 v72 a24 24 0 0 0 24 24 h72 Z" fill="#e6f4ea"/>
+  <!-- 三条内容绿线 -->
   <rect x="168" y="224" width="176" height="24" rx="12" fill="#2f9e5f"/>
   <rect x="168" y="268" width="176" height="24" rx="12" fill="#2f9e5f" opacity="0.72"/>
   <rect x="168" y="312" width="112" height="24" rx="12" fill="#2f9e5f" opacity="0.45"/>
+  <!-- 放大镜 -->
   <circle cx="392" cy="392" r="44" fill="#ffffff"/>
   <circle cx="392" cy="392" r="24" fill="none" stroke="#2f9e5f" stroke-width="12"/>
   <line x1="410" y1="410" x2="436" y2="436" stroke="#2f9e5f" stroke-width="14" stroke-linecap="round"/>
